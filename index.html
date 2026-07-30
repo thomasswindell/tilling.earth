@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                background-color: white;
+                color: black;
+            }
+                .header {
+                    padding-top: 20px;
+                    padding-bottom: 40px;
+                    display: grid;
+                    grid-template-columns: 1fr auto 1fr;
+                    align-items: left;
+                    padding-left: 40px;
+                    padding-right: 40px;    
+                }
+                    .header-logo {
+                        grid-column: 1;
+                        max-width: 20vw;
+                    }
+                    .nav-links {
+                        grid-column: 4;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 5px;
+                    }
+                        .nav-links a {
+                            color: black;
+                            text-decoration: none;
+                        }
+                            .nav-links a:hover {
+                                text-decoration: none;
+                                color: red;
+                            }
+                            .nav-links a:visited {
+                                text-decoration: none;
+                                color: black;
+                            }
+                .grid-container {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(max(300px, 33.33%), 1fr));
+                    gap: 0px;
+                    width: 100vw;
+                    position: relative;
+                    left: 50%;
+                    right: 50%;
+                    margin-left: -50vw;
+                    margin-right: -50vw;
+                    background-color: #dddddd
+                }
+                    .grid-item {
+                        display: grid;
+                        grid-template-rows: auto auto 1fr;
+                        padding: 40px;
+                    }
+                        .grid-item p.date {
+                            margin-top: 0;
+                        } 
+                        .grid-item img{
+                            max-width: 100%;
+                            height: auto;
+                        }
+                        .description-box {
+                            margin-top: 15px;
+                        }
+        </style>
+        <title>tilling.earth</title>
+    </head>
+    <body style="font-family: helvetica neue light;">
+        <div class="header">
+            <img class="header-logo"; src="/Users/home/Documents/Personal/Websites & Software/tilling.earth/output-onlinepngtools.png">
+            <div class="nav-links">
+                <a href="bandcamp.com">Bandcamp</a>
+                <a href="thomasswindell.com">Thomas Swindell</a>
+                <a href="kodeysaldana.com">Kodey Saldana</a>
+            </div>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item">
+                <p class="date">[August 1 2026]</p>
+                <img src="/Users/home/Documents/Personal/Websites & Software/tilling.earth/ShowPoster_8-1-26.PNG">
+                <div class="decription-box">
+                    <p>
+                        tilling.earth music series installment 1
+                        <br>community artists' collective
+                        <br>bob selcoe, nour, david dove, ben kamins, laura dykes
+                        <br>kodey saldana, gio suarez, marwan ghonima
+                    </p>
+                </div>
+            </div>
+             <div class="grid-item">
+                <p class="date">[August 1 2026]</p>
+                <img src="/Users/home/Documents/Personal/Websites & Software/tilling.earth/ShowPoster_8-1-26.PNG">
+            </div>
+            <div class="grid-item">
+                <p class="date">[August 1 2026]</p>
+                <img src="/Users/home/Documents/Personal/Websites & Software/tilling.earth/ShowPoster_8-1-26.PNG">
+            </div>
+            <div class="grid-item">
+                <p class="date">[August 1 2026]</p>
+                <img src="/Users/home/Documents/Personal/Websites & Software/tilling.earth/ShowPoster_8-1-26.PNG">
+            </div>
+            <div class="grid-item">
+                <p class="date">[August 1 2026]</p>
+                <img src="/Users/home/Documents/Personal/Websites & Software/tilling.earth/ShowPoster_8-1-26.PNG">
+            </div>
+            <div class="grid-item">
+                <p class="date">[August 1 2026]</p>
+                <img src="/Users/home/Documents/Personal/Websites & Software/tilling.earth/ShowPoster_8-1-26.PNG">
+             </div>
+            </div>
+        </div>
+    </body>
+</html>
